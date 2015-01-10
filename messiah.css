@@ -1,0 +1,11 @@
+/* Mountain Messiah */
+body {
+        background-color: #F5DEB3;
+}
+#header {
+        text-align: center;
+}
+.content {
+  text-align: center;
+  font-size: 1.5em;
+}

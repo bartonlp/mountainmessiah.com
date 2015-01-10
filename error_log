@@ -1,0 +1,10 @@
+[20-Mar-2014 16:07:22 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Exception' with message 'Did not find '.sitemap.php' before /home/barton11/mountainmessiahdotcom' in /home/barton11/includes/siteautoload.php:202
+Stack trace:
+#0 /home/barton11/mountainmessiahdotcom/index.php(4): include()
+#1 {main}
+  thrown in /home/barton11/includes/siteautoload.php on line 202
+[20-Mar-2014 16:10:20 America/Los_Angeles] PHP Fatal error:  Class 'Messiah' not found in /home/barton11/mountainmessiahdotcom/index.php on line 7
+[20-Mar-2014 16:17:03 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ']', expecting ')' in /home/barton11/mountainmessiahdotcom/.sitemap.php on line 47
+[20-Mar-2014 16:17:14 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ']', expecting ')' in /home/barton11/mountainmessiahdotcom/.sitemap.php on line 47
+[20-Mar-2014 16:17:37 America/Los_Angeles] PHP Warning:  require(/header.i.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/barton11/includes/SiteClass.class.php on line 574
+[20-Mar-2014 16:17:37 America/Los_Angeles] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/header.i.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/barton11/includes/SiteClass.class.php on line 574

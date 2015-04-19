@@ -17,5 +17,3 @@ $pageHeadText = <<<EOF
   {$arg['extra']}
 </head>
 EOF;
-
-?>

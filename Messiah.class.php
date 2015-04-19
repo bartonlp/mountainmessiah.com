@@ -69,9 +69,3 @@ class Messiah extends SiteClass {
   }
 
 } // End of class GrandLakeRotary
-
-// ********************************************************************************
-
-// WARNING THERE MUST BE NOTHING AFTER THE CLOSING PHP TAG.
-// Really nothing not even a space!!!!
-?>

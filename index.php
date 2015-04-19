@@ -1,9 +1,5 @@
 <?php
-define('TOPFILE', "/var/www/includes/siteautoload.php");
-if(file_exists(TOPFILE)) {
-  include(TOPFILE);
-} else throw new Exception(TOPFILE . " not found");
-
+require_once("/var/www/includes/siteautoload.class.php");
 $S = new Messiah;
 
 $h->title = "Mountain Messiah 2015";
@@ -35,4 +31,3 @@ by George Frederick Handel</p>
 $footer
 
 EOF;
-?>

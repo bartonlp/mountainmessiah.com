@@ -2,4 +2,3 @@
 $pageBannerText = <<<EOF
 $mainTitle
 EOF;
-?>

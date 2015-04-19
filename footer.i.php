@@ -28,4 +28,3 @@ EOF;
 </html>
 
 EOF;
-?>

@@ -1,11 +1,86 @@
 /* Mountain Messiah */
+html {
+        font-size: 16px;
+}
 body {
         background-color: #F5DEB3;
+        padding: 1rem;
 }
 #header {
         text-align: center;
 }
-.content {
-  text-align: center;
-  font-size: 1.5em;
+.content-center {
+        text-align: center;
+        font-size: 1em;
+}
+.msg {
+        font-size: 1.3em;
+}
+.chorus {
+        width: 400px;
+        margin: auto;
+        text-align: left;
+}
+/* For webstats-new.php */
+#blpid, #daycount, #blpmembers, #logip, #logagent, #counter, #counter2, #tracker, #robots, #robots2 {
+        background-color: white;
+}
+.left {
+        float:left;
+        width:48%;
+}
+.right {
+        float:right;
+        width:48%;
+}
+/*
+  The #hitCounter... are for the SiteClass::getCounterWigget() which can be at the bottom of the page.
+  #F5DEB3==rgb(245,222,179) is 'wheat' for the background
+  rgb(123, 16, 66) is a burgundy for the number
+*/  
+#hitCounter {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        text-align: center;
+}
+#hitCountertbl {
+        font-size: 1em;
+        width: 0;
+        border: 8px ridge yellow;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #F5DEB3
+}
+#hitCountertr {
+        width: 0;
+        border: 8px ridge yellow;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #F5DEB3
+}
+#hitCounterth {
+        color: rgb(123, 16, 66);
+}
+
+@media (max-width: 800px) {
+        .titleimage {
+                width: 400px;
+        }
+}
+@media (max-width: 400px) {
+        .titleimage {
+                width: 200px;
+        }
+        .chorus {
+                width: 200px;
+        }
+}
+@media (min-width: 1024px) {
+        html {
+                font-size: 25px;
+        }
+        .chorus {
+                width: 700px;
+        }
 }

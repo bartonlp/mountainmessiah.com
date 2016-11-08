@@ -1,0 +1,9 @@
+# HOME is only needed by siteautoload and will be removed once everything is autoload.php ready
+SetEnv HOME /var/www
+SetEnv SITELOAD /var/www/vendor/bartonlp/site-class/includes
+
+RewriteEngine on
+RewriteRule ^robots\.txt$ robots.php [L,NC]
+
+RewriteCond %{HTTP_USER_AGENT} "baiduspider" [NC]
+RewriteRule (.*) - [F,L]

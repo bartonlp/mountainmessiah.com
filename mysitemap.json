@@ -1,0 +1,23 @@
+{
+    "siteDomain": "mountainmessiah.com",
+    "siteName": "Messiah",
+    "path": "/var/www/messiah",
+    "className": "SiteClass",
+    "copyright": "2016 Mountain Messiah",
+    "masterdb": "barton",
+    "dbinfo": {
+        "host": "localhost",
+        "user": "barton",
+        "password": "7098653",
+        "database": "barton",
+        "engine": "mysqli"
+    },
+    "headFile": "header.i.php",
+    "bannerFile": "banner.i.php",
+    "footerFile": "footer.i.php",
+    "count": true,
+    "countMe": false,
+    "trackerImg1": "/images/MountainMessiah.png",
+    "trackerImg2": "/images/George_Frideric_Handel.jpg",
+    "myUri": "bartonphillips.dyndns.org"
+}

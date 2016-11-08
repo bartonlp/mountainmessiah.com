@@ -1,33 +1,25 @@
 <?php
-require_once("/var/www/includes/siteautoload.class.php");
-$S = new Messiah;
+$_site = require_once(getenv("SITELOAD")."/siteload.php");
+$S = new $_site->className($_site);
 
 $h->title = "Mountain Messiah 2015";
-$h->banner = <<<EOF
-<header id="header">
-<img src="MountainMessiah.png" alt="logo"/><br>
-<img src="George_Frideric_Handel.jpg" alt="Picture of Handel" title="George Frideric Handel" />
+$h->banner =<<<EOF
+<h1>2016 Annual Mountain Messiah</h1>
+<p>At 8,850 feet, this is the highest sung rendition of the Messiah
+by George Frederick Handel</p>
 EOF;
 
 list($top, $footer) = $S->getPageTopBottom($h, "<hr>");
 
 echo <<<EOF
 $top
-<h1>2015 Annual Mountain Messiah</h1>
-<p>At 8,850 feet, this is the highest sung rendition of the Messiah
-by George Frederick Handel</p>
-</header>
 <hr>
-<article class="content">
+<article class="content-center">
 <section>
-<p><i>Come lend your voice in song</i><br>
-<i>or</i><br>
-<i>Come and listen along</i></p>
-<p>As the time grows near look for dates and times here.</p>
-<p><a href="https://www.facebook.com/MountainMessiah">
-<img src="facebook.png" alt="Facebook"/></a></p>
+<h3>Look at this page as it gets closer to Chrismas 2016 for dates and location as well as a list of the musical sections.</h3>
 </section>
 </article>
+<hr>
 $footer
 
 EOF;

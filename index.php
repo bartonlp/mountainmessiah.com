@@ -9,6 +9,16 @@ $h->banner =<<<EOF
 by George Frederick Handel</p>
 EOF;
 
+$h->css =<<<EOF
+  <style>
+img[src$='facebook3.jpg'] {
+  width: 10rem;
+}
+img[src$='2016.png'] {
+  width: 40rem;
+}
+  </style>
+EOF;
 list($top, $footer) = $S->getPageTopBottom($h, "<hr>");
 
 echo <<<EOF
@@ -16,7 +26,11 @@ $top
 <hr>
 <article class="content-center">
 <section>
-<h3>Look at this page as it gets closer to Chrismas 2016 for dates and location as well as a list of the musical sections.</h3>
+<h3>Sunday, Dec 11th at the YMCA Chapel at 7 PM with a pre-concert at 6:30.</h3>
+<p>We are just putting thing together for this Christmas celebration. Check back soon for more details.</p>
+<img src="Messiah Poster 2016.png"><br>
+<a href="https://www.facebook.com/MountainMessiah/"><img src="http://bartonphillips.net/images/facebook3.jpg"></a>
+
 </section>
 </article>
 <hr>

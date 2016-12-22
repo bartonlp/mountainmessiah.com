@@ -9,7 +9,7 @@
   
   $rdate = getlastmod();
   $date = date("M d, Y H:i:s", $rdate);
-  $email = EMAILADDRESS;
+  $email = $this->EMAILADDRESS;
   $pageFooterText .= <<<EOF
 <div style="text-align: center;">
 <p id='lastmodified'>Last Modified&nbsp;$date</p>

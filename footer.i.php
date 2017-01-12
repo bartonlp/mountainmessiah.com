@@ -12,8 +12,9 @@
   $email = $this->EMAILADDRESS;
   $pageFooterText .= <<<EOF
 <div style="text-align: center;">
-<p id='lastmodified'>Last Modified&nbsp;$date</p>
-<p id='contactUs'><a href='mailto:$email'>Contact Us</a></p>
+<p>Copyright &copy; $this->copyright<br>
+Last Modified&nbsp;$date<br>
+<a href='mailto:$email'>Contact Us</a></p>
 </div>
 
 EOF;

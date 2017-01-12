@@ -3,7 +3,7 @@
     "siteName": "Messiah",
     "path": "/var/www/messiah",
     "className": "SiteClass",
-    "copyright": "2016 Mountain Messiah",
+    "copyright": "2017 Mountain Messiah",
     "masterdb": "barton",
     "dbinfo": {
         "host": "localhost",

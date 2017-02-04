@@ -17,6 +17,7 @@
     "footerFile": "footer.i.php",
     "count": true,
     "countMe": false,
+    "ctrmsg": "Counter Reset: Feb. 4, 2017",
     "trackerImg1": "/images/MountainMessiah.png",
     "trackerImg2": "/images/George_Frideric_Handel.jpg",
     "EMAILADDRESS": "bartonphillips@gmail.com",

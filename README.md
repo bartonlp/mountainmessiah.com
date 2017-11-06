@@ -1,3 +1,5 @@
-Mountain Messiah
-The website was hosted on my InmotionHosting.com server but I have moved it to
-my DigitalOcean.com server (bartonlp.com).
+#Mountain Messiah
+
+The domain (mountainmessiah.com) is now owned by Jeff Shaw in Granby as of Nov 2017. He set up an account and is now paying for the domain renewal. I will continue to do the upkeep of the site.
+
+

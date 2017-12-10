@@ -28,7 +28,7 @@ $top
 <section>
 <h3>Wait till Next Year</h3>
 <p>The 2016 Mountain Messiah is over but we will do it again next year. Stay tuned for 2017 information</p>
-<a href="https://www.facebook.com/MountainMessiah/"><img src="http://bartonphillips.net/images/facebook3.jpg"></a>
+<a href="https://www.facebook.com/MountainMessiah/"><img src="https://bartonphillips.net/images/facebook3.jpg"></a>
 
 </section>
 </article>

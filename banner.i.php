@@ -1,7 +1,7 @@
 <?php
 return <<<EOF
 <header id="header">
-<img id="logo" class="titleimage" src="http://bartonphillips.net/images/MountainMessiah.png" alt="logo"/><br>
+<img id="logo" class="titleimage" src="https://bartonphillips.net/images/MountainMessiah.png" alt="logo"/><br>
 <img id="GFHandel" src="/tracker.php?page=normal&id=$this->LAST_ID" alt="Picture of Handel" title="George Frideric Handel" />
 $mainTitle
 </header>

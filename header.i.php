@@ -12,7 +12,11 @@ $pageHeadText = <<<EOF
   <!-- Local CSS -->
   {$arg['css']}
   <!-- jQuery from Google site -->
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script>
+var lastId = $this->LAST_ID;
+  </script>
+  <script src="https://bartonphillips.net/js/tracker.js"></script>
   <!-- script -->
   {$arg['extra']}
   {$arg['script']}

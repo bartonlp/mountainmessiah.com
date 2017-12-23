@@ -4,7 +4,7 @@ $S = new $_site->className($_site);
 
 $h->title = "Mountain Messiah 2017";
 $h->banner =<<<EOF
-<h1>2017 Annual Mountain Messiah</h1>
+<h1>2018 Annual Mountain Messiah</h1>
 <p>At 8,850 feet, this is the highest sung rendition of the Messiah
 by George Frederick Handel</p>
 EOF;
@@ -27,7 +27,7 @@ $top
 <article class="content-center">
 <section>
 <h3>Wait till Next Year</h3>
-<p>The 2016 Mountain Messiah is over but we will do it again next year. Stay tuned for 2017 information</p>
+<p>The 2017 Mountain Messiah is over but we will do it again next year. Stay tuned for 2018 information</p>
 <a href="https://www.facebook.com/MountainMessiah/"><img src="https://bartonphillips.net/images/facebook3.jpg"></a>
 
 </section>

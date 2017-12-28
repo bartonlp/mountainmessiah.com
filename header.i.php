@@ -9,6 +9,9 @@ $pageHeadText = <<<EOF
   <meta name="Author" content="Barton L. Phillips, mailto:barton@bartonphillips.com"/>
   <meta name="description" content="{$arg['desc']}"/>
   <link rel="stylesheet" href="messiah.css" type="text/css" />
+  <!-- css is not css but a link to tracker via .htaccess RewriteRule. -->
+  <link rel="stylesheet" href="/csstest.css?id=$this->LAST_ID" title="blp test">
+
   <!-- Local CSS -->
   {$arg['css']}
   <!-- jQuery from Google site -->

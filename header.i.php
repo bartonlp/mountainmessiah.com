@@ -10,7 +10,7 @@ $pageHeadText = <<<EOF
   <meta name="description" content="{$arg['desc']}"/>
   <link rel="stylesheet" href="messiah.css" type="text/css" />
   <!-- css is not css but a link to tracker via .htaccess RewriteRule. -->
-  <link rel="stylesheet" href="/csstest.css?id=$this->LAST_ID" title="blp test">
+  <link rel="stylesheet" href="/csstest-{$this->LAST_ID}.css" title="blp test">
 
   <!-- Local CSS -->
   {$arg['css']}

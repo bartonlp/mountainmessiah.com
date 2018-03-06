@@ -25,6 +25,7 @@ EOF;
 
   $pageFooterText .= <<<EOF
 </footer>
+{$arg['script']}
 </body>
 </html>
 

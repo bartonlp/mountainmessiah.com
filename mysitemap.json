@@ -3,7 +3,7 @@
     "siteName": "Messiah",
     "path": "/var/www/messiah",
     "className": "SiteClass",
-    "copyright": "2018 Mountain Messiah",
+    "copyright": "Mountain Messiah",
     "masterdb": "barton",
     "dbinfo": {
         "host": "localhost",
@@ -21,5 +21,5 @@
     "trackerImg1": "/images/MountainMessiah.png",
     "trackerImg2": "/images/George_Frideric_Handel.jpg",
     "EMAILADDRESS": "bartonphillips@gmail.com",
-    "myUri": "bartonphillips.dyndns.org"
+    "myUri": "https://bartonphillips.net/myUri.json"
 }
